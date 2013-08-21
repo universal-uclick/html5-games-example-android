@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HTMLGamesExample</string>
+    <string name="crossword">Crossword</string>
+    <string name="sudoku">Sudoku</string>
+    <string name="wordroundup">Word Roundup</string>
+    <string name="upanddownwords">Up and Down Words</string>
+    <string name="quickcross">PlayFour</string>
+    
+    <string name="UUClientCode">INSERT-CLIENT-CODE-HERE</string>
+    <string name="UUAuthorizationKey">INSERT-AUTHORIZATION-KEY-HERE</string>
+
+</resources>
