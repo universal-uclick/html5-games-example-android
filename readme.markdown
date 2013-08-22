@@ -17,14 +17,14 @@ The game engine loads itself via JavaScript into an `iframe` that the JavaScript
 1. **Your Package Name**. This must be provided to Universal Uclick when you purchase an HTML5 Game package. (For example, this application's package name is `com.universaluclick.HTMLGamesExample`.)
 2. **Your Universal Uclick Client ID**. This will be given to you by Universal Uclick.
 3. **Your Authorization Key**. This will also be given to you by Universal Uclick.
-4. **The desired game key**. In this app, those keys are located at `-[UUMasterViewController games]`, or as follows:
+4. **The desired game key**. In this app, those keys are located at `MainActivity.java`, or as follows:
     - **Crossword**: `crossword`
     - **Sudoku**: `sudoku`
     - **Word Roundup**: `wordroundup`
     - **Up and Down Words**: `upanddownwords`
     - **PlayFour**: `playfour`
 
-That string of HTML is then loaded into a `WebView` using the method `onCreateView()`, as demonstrated in `HtmlGameFragment` in `Main.java`.
+That string of HTML is then loaded into a `WebView` using the method `onCreateView()`, as demonstrated in `HtmlGameFragment` in `MainActivity.java`.
 
 ## Questions?
 
