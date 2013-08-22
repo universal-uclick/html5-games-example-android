@@ -53,7 +53,7 @@ public class MainActivity extends Activity {
         tab = actionBar.newTab()
                        .setText("PlayFour")
                        .setTabListener(new TabListener<HtmlGameFragment>(
-                               this, "quickcross", HtmlGameFragment.class));
+                               this, "playfour", HtmlGameFragment.class));
         actionBar.addTab(tab);
 
     }
